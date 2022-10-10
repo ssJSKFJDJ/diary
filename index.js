@@ -23,7 +23,7 @@ function 主窗口_创建完毕(){
 	窗口操作.置组件圆角("编辑框1","50px");
 
 
-	网络操作1.发送网络请求("files/diary.txt","get","text","",5000);
+	网络操作1.发送网络请求("https://cypress0522.github.io/tools/diary/content1.txt","get","text","",5000);
 }
 
 function 网络操作1_发送完毕(发送结果,返回信息){
